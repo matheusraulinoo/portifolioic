@@ -45,7 +45,7 @@
       }
 
       
-      .animacao {
+      .animation {
         opacity: 0;
         transform: translateY(20px);
         transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
