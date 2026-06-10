@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MR.Space</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <button class="tema" aria-label="Alternar modo de cor" onclick="alternarTema()">
+      
+    </button>
+
+    <main class="container">
+      
+      <header class="identidade">
+        <div class="avatar-wrapper">
+          <img class="avatar" src="avatar.jpeg" alt="Matheus Raulino" width="120" height="120" />
+        </div>
+        <h1 class="nome">Matheus Raulino</h1>
+        
+        <div class="identidade-">
+          <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+        </div>
+        
+        <p class="cs-student">CS Student @ CESAR School</p>
+      </header>
+
+      <section class="visivel">
+        <article class="about-text">
+          <p>Hello, my name is Matheus Raulino. I am a first-year Computer Science student passionate about building digital experiences. My current focus is split between the art of <strong>frontend development</strong> and the logic of <strong>game development</strong>.👨🏽‍💻</p>
+        </article>
+        
+        <nav class="nav-links">
+          <a href="projetos.html" class="nav-card">Projetos</a>
+          <a href="habilidades.html" class="nav-card">Habilidades Adquiridas</a>
+          <a href="certificados.html" class="nav-card">Contato</a>
+        </nav>
+      </section>
+
+      <section class="visivel">
+        <h2 class="section-title">Áreas de Interesse</h2>
+        <ul class="modern-list">
+          <li class="modern-item">
+            <div class="item-header">
+              <span class="item-title">Frontend Development</span>
+              <span class="item-tech">React • HTML •  JS • CSS</span>
+            </div>
+            <p class="item-desc">Criando interfaces de usuário modernas, responsivas e focadas na experiência do usuário.</p>
+          </li>
+          <li class="modern-item">
+            <div class="item-header">
+              <span class="item-title">Desenvolvimento de Jogos</span>
+              <span class="item-tech">Godot • C# • Unity</span>
+            </div>
+            <p class="item-desc">Estudando loops de jogo, a forma de construção dos jogos e interfaces deles.</p>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <script src="java.js"></script>
+  </body>
+</html>
