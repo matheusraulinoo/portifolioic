@@ -1,7 +1,7 @@
 
 # Seja bem vindo ao MR.Space! 
 
-## O que você encontra aqui:
+## O que você encontra nesse projeto:
 
 ### 🏠 Home
 
